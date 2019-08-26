@@ -14,6 +14,11 @@ export default new Router({
       path: '/amap',
       name: '高德地图',
       component: () => import('@/views/map/AMap')
+    },
+    {
+      path: '/editor',
+      name: '富文本编辑器',
+      component: () => import('@/views/editor/wangeditor')
     }
   ]
 })
